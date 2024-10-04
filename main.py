@@ -2,7 +2,7 @@ from typing import Optional
 from fastapi import FastAPI
 
 app = FastAPI()
-@app.get("/factorial/{num}")
+@app.get("/factorial/{num1}")
 def get_factorial(num1: int):
 
     if num1 < 0:
