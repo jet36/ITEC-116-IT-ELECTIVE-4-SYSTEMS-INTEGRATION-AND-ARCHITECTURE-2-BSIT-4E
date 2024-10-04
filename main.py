@@ -6,7 +6,7 @@ app = FastAPI()
 def get_factorial(num1: int):
 
     if num1 < 0:
-        return {"nput cannot be negative"}
+        return {"Input cannot be negative"}
     
     if num1 == 0:
         return {"result": False}
