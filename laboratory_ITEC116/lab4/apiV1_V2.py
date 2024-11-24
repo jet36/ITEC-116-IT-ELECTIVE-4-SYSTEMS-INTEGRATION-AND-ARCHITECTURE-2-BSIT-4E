@@ -70,6 +70,7 @@ def delete_task_v1(task_id: int):
     return {"error": "Task not found. Cannot delete record"}
 
 
+# Version 2 Endpoints
 
 @app.post("/v2/tasks", status_code=status.HTTP_201_CREATED)
 async def add_task_v2(task: TaskV2, api_key: str = Depends(check_api_key)):
@@ -87,14 +88,27 @@ async def get_task_v2(task_id: int, api_key: str = Depends(check_api_key)):
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Task not found")
     return task
 
+@app.get("/v2/tasks/{task_id}", response_model=dict)
+async def get_task_v2(task_id: int, api_key: str = Depends(check_api_key)):
+    """Retrieve a specific task by ID (Version 2)."""
+    task = next((task for task in tasks if task["id"] == task_id), None)
+    
+    if not task:
+        return None  # Returning None will result in a 204 No Content response
+
+    return task  # Otherwise, return the task with 200 OK
+
+
 
 @app.put("/v2/tasks/{task_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def update_task_v2(task_id: int, updated_task: dict, api_key: str = Depends(check_api_key)):
+async def update_task_v2(task_id: int, updated_task: TaskV2, api_key: str = Depends(check_api_key)):
     """Update an existing task (Version 2)."""
+    
     task = next((task for task in tasks if task["id"] == task_id), None)
     if not task:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Task not found")
-    task.update(updated_task)
+    task["name"] = updated_task.name
+    task["description"] = updated_task.description
     return None
 
 
