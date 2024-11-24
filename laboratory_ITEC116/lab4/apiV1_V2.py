@@ -5,7 +5,10 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-API_KEY = "@My_P@5sword_Is!_1234"
+
+# Get the API key securely from environment variables
+API_KEY = os.getenv("API_KEY")
+
 app = FastAPI()
 
 task_db: List[dict] = [
