@@ -1,6 +1,6 @@
 ITEC 116 - Systems Integration and Architecture (API-Focused Laboratory)
 
-Welcome to the lab activities for ITEC 116: Systems Integration and Architecture! This repository contains hands-on exercises designed to help you master API development and integration, focusing on building modern, secure, and scalable APIs with FastAPI. Along the way, we also explore tools like Swagger UI to make API interaction and testing easier and more intuitive.
+Welcome to the laboratory Activities for ITEC 116: Systems Integration and Architecture! This repository contains hands-on exercises designed to help you master API development and integration, focusing on building modern, secure, and scalable APIs with FastAPI. Along the way, we also explore tools like Swagger UI to make API interaction and testing easier and more intuitive.
 These labs combine technical skills with best practices, preparing you to tackle real-world projects and challenges in systems integration.
 
 Getting Started with APIs
