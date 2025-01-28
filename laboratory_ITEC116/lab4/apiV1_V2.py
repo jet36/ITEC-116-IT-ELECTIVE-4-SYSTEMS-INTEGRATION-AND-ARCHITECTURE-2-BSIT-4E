@@ -20,8 +20,10 @@ tasks = [{"id": 1, "name": "Task 1", "description": "Description 1"},
 
 
 class TaskV2(BaseModel):
-    name: str = Field(..., example="Task 1")
-    description: str = Field(..., example="Description of Task 1") 
+    id: int
+    name: str
+    description: str
+
 
 class TaskV1(BaseModel):
     task_id: conint(gt=0) 
