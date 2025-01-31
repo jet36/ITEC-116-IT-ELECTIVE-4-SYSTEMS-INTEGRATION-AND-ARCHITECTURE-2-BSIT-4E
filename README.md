@@ -14,6 +14,6 @@ In this laboratory, you will expand your knowledge of FastAPI by learning how to
 In this lab, you will explore JSON (JavaScript Object Notation), which is the most commonly used data format for structuring and exchanging information in APIs. JSON allows applications to communicate by sending and receiving structured data in a human-readable format.
 
 By working with JSON in FastAPI, you will:
-  Parse JSON data to extract meaningful information.
-  Traverse JSON structures, including nested data such as user posts and comments.
-  Return JSON responses in a properly formatted structure using FastAPI.
+  # Parse JSON data to extract meaningful information.
+ #  Traverse JSON structures, including nested data such as user posts and comments.
+ #  Return JSON responses in a properly formatted structure using FastAPI.
