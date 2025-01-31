@@ -7,7 +7,7 @@ In this first laboratory, you'll be introduced to FastAPI, a modern web framewor
 
 This lab is all about getting hands-on with FastAPI and strengthening your coding skills by building and testing your own API. You’ll also review Python as the programming language of choice for API development, diving into its capabilities for logic building and handling data processing.
 
-# Laboratory 2: Working with HTTP Methods and API Parameters
+# Laboratory 2: Working with HTTP Methods and API Parameters 
 In this laboratory, you will expand your knowledge of FastAPI by learning how to handle API parameters and use different HTTP methods effectively. These are essential skills for developing APIs that follow best practices and allow smooth data interaction. By the end of this activity, you will have built a fully functional To-Do List API that can perform Create, Read, Update, and Delete (CRUD) operations.
 
 # Laboratory 3: Working with JSON in FastAPI
