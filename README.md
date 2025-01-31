@@ -12,11 +12,10 @@ In this laboratory, you will expand your knowledge of FastAPI by learning how to
 
 # Laboratory 3: Working with JSON in FastAPI
 In this lab, you will explore JSON (JavaScript Object Notation), which is the most commonly used data format for structuring and exchanging information in APIs. JSON allows applications to communicate by sending and receiving structured data in a human-readable format.
-
 By working with JSON in FastAPI, you will:
-  Parse JSON data to extract meaningful information.
-  Traverse JSON structures, including nested data such as user posts and comments.
-  Return JSON responses in a properly formatted structure using FastAPI.
+Parse JSON data to extract meaningful information.
+Traverse JSON structures, including nested data such as user posts and comments.
+Return JSON responses in a properly formatted structure using FastAPI.
 
   # Laboratory 4: API Versioning, Authentication, and Exception Handling
 In this lab, you will improve your existing API by implementing versioning, authentication using API keys, and proper HTTP exception handling. Versioning ensures that older versions of the API remain accessible while allowing updates and improvements in newer versions. Authentication using API keys enhances security by restricting access to authorized users, with the API key stored securely in a .env file to prevent exposure. Proper HTTP exception handling ensures that users receive clear and meaningful error messages, such as a 404 Not Found response for missing tasks or a 204 No Content response when there are no tasks available. Additionally, status codes like 201 Created for adding a task and 204 No Content for updating or deleting a task provide structured and standardized responses. These enhancements make the API more secure, scalable, and user-friendly while following best practices in API development.
