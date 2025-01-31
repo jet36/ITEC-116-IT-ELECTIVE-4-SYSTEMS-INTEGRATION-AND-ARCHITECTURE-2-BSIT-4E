@@ -1,14 +1,9 @@
-                ITEC 116 - Systems Integration and Architecture (API-Focused Laboratory)
+                ITEC 116 - Systems Integration and Architecture
 
 Welcome to the laboratory Activities for ITEC 116: Systems Integration and Architecture! This repository contains hands-on exercises designed to help you master API development and integration, focusing on building modern, secure, and scalable APIs with FastAPI. Along the way, we also explore tools like Swagger UI to make API interaction and testing easier and more intuitive.
 These labs combine technical skills with best practices, preparing you to tackle real-world projects and challenges in systems integration.
 
-• Getting Started with APIs
-Learn the fundamentals of APIs and RESTful architecture. Get familiar with how APIs enable system communication and how to use HTTP methods like GET, POST, PUT, and DELETE.
+Laboratory 1: Introduction to FastAPI for API Development
+In this first laboratory, you'll be introduced to FastAPI, a modern web framework for building APIs with Python. FastAPI is known for its speed and ease of use, making it an excellent choice for developers looking to create fast, scalable, and secure web applications.
 
-•	FastAPI and Interactive API Documentation
-Dive into FastAPI and build your first endpoints. Use the Swagger UI (built into FastAPI) to visualize, interact with, and test your APIs directly from your browser.
-
-•	CRUD Operations Made SimpleBuild a fully functional API with Create, Read, Update, and Delete (CRUD) operations. Work with JSON data and connect it to backend systems.
-
-•	API Testing and DebuggingTest your APIs with tools like Postman and automated testing frameworks. Write robust tests to ensure reliability and maintainability.
+This lab is all about getting hands-on with FastAPI and strengthening your coding skills by building and testing your own API. You’ll also review Python as the programming language of choice for API development, diving into its capabilities for logic building and handling data processing.
